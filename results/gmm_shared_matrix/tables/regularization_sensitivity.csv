@@ -1,0 +1,5 @@
+reg_covar,n_components,covariance_type,bic,smallest_segment,eligible_candidates
+0.03,10,diag,27456.318077002503,66,33
+0.05,8,full,28701.83807884706,80,35
+0.1,8,full,29532.899051399036,65,28
+0.2,4,full,30723.746200055422,474,15

@@ -1,0 +1,29 @@
+{
+  "input_path": "D:\\Data Mining\\KMeans_PR1_Review\\data\\customer_features.csv",
+  "input_sha256": "6b00cd40cd2746782f3ca524e537bec750387282b3f8d84496cb7f9f9f3bba57",
+  "customer_count": 4320,
+  "shared_preprocessing": "log1p then StandardScaler; no winsorization",
+  "sklearn_version": "1.7.2",
+  "kmeans": {
+    "k": 4,
+    "n_init": 20,
+    "seed": 42,
+    "inertia": 3909.266377302674
+  },
+  "gmm_fixed_k4": {
+    "covariance_type": "full",
+    "reg_covar": 0.1,
+    "n_init": 30,
+    "seed": 42,
+    "bic": 29643.899725003837,
+    "median_max_posterior": 0.736299093430281
+  },
+  "gmm_bic_selected": {
+    "k": 8,
+    "bic": 29526.652442635626
+  },
+  "notebook_reproduction": {
+    "kmeans_ari": 1.0,
+    "notebook_gmm_vs_refit_gmm4_ari": 0.6017816250397666
+  }
+}

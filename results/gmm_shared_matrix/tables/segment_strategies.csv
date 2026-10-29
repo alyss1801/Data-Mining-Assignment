@@ -1,0 +1,9 @@
+SegmentID,Segment,CustomerCount,CustomerShare,RecommendedStrategy
+1,S1 - Recent / Very frequent / Very high value,69,0.01597222222222222,"VIP retention, early access, loyalty rewards, and referral programs."
+2,S2 - Recent / Very frequent / Very high value,378,0.0875,"VIP retention, early access, loyalty rewards, and referral programs."
+3,S3 - Recent / Frequent / High value,263,0.06087962962962963,Recognize repeat purchases; test loyalty benefits and relevant cross-sell.
+4,S4 - Cooling / Frequent / High value,800,0.18518518518518517,Premium recommendations and proactive retention monitoring.
+5,S5 - Recent / Occasional / Mid value,443,0.1025462962962963,Nurture with relevant content and controlled promotional testing.
+6,S6 - Dormant / Occasional / Mid value,742,0.17175925925925925,Nurture with relevant content and controlled promotional testing.
+7,S7 - Cooling / Rare / Low value,639,0.14791666666666667,"Timed reminders, replenishment prompts, and personalized recommendations."
+8,S8 - Dormant / Rare / Low value,986,0.22824074074074074,Low-cost reactivation; suppress after repeated non-response.

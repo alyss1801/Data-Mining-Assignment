@@ -1,0 +1,58 @@
+{
+  "input_path": "D:\\Data Mining\\KMeans_PR1_Review\\data\\customer_features.csv",
+  "input_sha256": "6b00cd40cd2746782f3ca524e537bec750387282b3f8d84496cb7f9f9f3bba57",
+  "customer_count": 4320,
+  "features": [
+    "Recency",
+    "Frequency",
+    "Monetary"
+  ],
+  "software_versions": {
+    "scikit_learn": "1.7.2",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3"
+  },
+  "preprocessing": {
+    "winsor_quantile": 1.0,
+    "upper_caps": {
+      "Recency": 374.0,
+      "Frequency": 206.0,
+      "Monetary": 278778.02
+    },
+    "transformation": "log1p",
+    "scaler": "StandardScaler"
+  },
+  "reg_covar": 0.1,
+  "selection_rule": "Minimum BIC among converged candidates whose smallest cluster has at least max(20 customers, 1% of the dataset), with fixed reg_covar.",
+  "selected_model": {
+    "n_components": 8,
+    "covariance_type": "full",
+    "selection_bic": 29532.899051399036,
+    "bic": 29526.652442635626,
+    "aic": 29023.342598817813,
+    "silhouette": 0.28716861739231647,
+    "calinski_harabasz": 2679.394084614919,
+    "davies_bouldin": 1.0140339409894263,
+    "smallest_segment": 69,
+    "converged": true,
+    "n_iter": 2
+  },
+  "posterior_diagnostics": {
+    "max_probability_median": 0.6156355305620872,
+    "share_max_probability_over_0_99": 0.005324074074074074
+  },
+  "pca": {
+    "pc1_explained_variance": 0.751737333673125,
+    "pc2_explained_variance": 0.18757148521421485
+  },
+  "segment_names": {
+    "1": "S1 - Recent / Very frequent / Very high value",
+    "2": "S2 - Recent / Very frequent / Very high value",
+    "3": "S3 - Recent / Frequent / High value",
+    "4": "S4 - Cooling / Frequent / High value",
+    "5": "S5 - Recent / Occasional / Mid value",
+    "6": "S6 - Dormant / Occasional / Mid value",
+    "7": "S7 - Cooling / Rare / Low value",
+    "8": "S8 - Dormant / Rare / Low value"
+  }
+}
